@@ -20,6 +20,13 @@ function StartLockPickCircle(circles, seconds, callback)
         Wait(5)
         SetNuiFocus(NUI_status, false)
     end
+    -- exports['ps-ui']:Circle(function(success)
+    --     if success then
+    --         print("success")
+    --     else
+    --         print("fail")
+    --     end
+    -- end, 1, 10) -- NumberOfCircles, MS
     Wait(100)
     SetNuiFocus(false, false)
     lockpickCallback = callback
